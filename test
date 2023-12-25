@@ -1,0 +1,33 @@
+```javascript
+// asyncTools.test.js
+
+// Importing required modules
+const assert = require('chai').assert;
+const asyncTools = require('../asyncTools');
+
+describe('asyncTools', function() {
+  describe('#readFileAsync()', function() {
+    it('should read file asynchronously', function() {
+      // Your test code here
+    });
+  });
+
+  describe('#writeFileAsync()', function() {
+    it('should write file asynchronously', function() {
+      // Your test code here
+    });
+  });
+
+  describe('#handleAsync()', function() {
+    it('should handle promise correctly', function() {
+      // Your test code here
+    });
+  });
+
+  describe('#delay()', function() {
+    it('should delay execution', function() {
+      // Your test code here
+    });
+  });
+});
+```
